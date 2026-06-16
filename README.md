@@ -15,16 +15,16 @@ ContinuAuth is a face authentication system built with PyQt6 that combines face 
 ## Interface & Evaluation Results
 
 ### Authentication Interface
-![Authentication Interface](assets/images/authentication_interface.png)
+![Authentication Interface](assets/images/User_Interface.png)
 
 ### Evaluation Results
-![Model Evaluation](assets/images/evaluation_results.png)
+![Model Evaluation](assets/images/val_batch1_pred_Anti_Spoofing.jpg)
 
 ### Face Detection Demo
-![Face Detection](assets/images/face_detection_demo.png)
+![Face Detection](assets/images/val_batch1_labels_Phone_Detection.jpg)
 
 ### System Performance Metrics
-![Performance Metrics](assets/images/performance_metrics.png)
+![Performance Metrics](assets/images/Face_Verification_Performance.jpeg)
 
 ## Requirements
 
