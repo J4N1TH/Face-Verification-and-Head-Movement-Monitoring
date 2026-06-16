@@ -1,0 +1,43 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual Environment
+venv*/
+env/
+.env
+
+# Dependencies
+requirements.txt.bak
+
+# PyInstaller
+build/
+dist/
+*.spec
+
+# Jupyter Notebooks
+.ipynb_checkpoints
+
+# Logs
+logs/
+*.log
+
+# Editor / IDE
+.vscode/
+.idea/
+
+# Local Storage
+local_storage/
+violations_evidence/
+dataset/
+Full notebooks/
+
+# Models
+*.pt
+*.onnx
+*.h5
+*.npy
+
+# Temporary
+scratch/
