@@ -1,6 +1,6 @@
 # ContinuAuth
 
-ContinuAuth is a face authentication system built with PyQt6 that combines face recognition, liveness detection, and secure user verification. The application uses ARC-Face embeddings for identity matching and incorporates anti-spoofing measures to improve authentication reliability. Face data can be stored securely in MongoDB, with automatic local storage fallback when database connectivity is unavailable.
+ContinuAuth is a face authentication system built with PyQt6 that combines face recognition, liveness detection and secure user verification. The application uses ARC-Face embeddings for identity matching and incorporates anti-spoofing measures to improve authentication reliability. Face data can be stored securely in MongoDB, with automatic local storage fallback when database connectivity is unavailable.
 
 ## Features
 
@@ -109,15 +109,11 @@ python -c "from cryptography.fernet import Fernet; print(Fernet.generate_key().d
 
 ## Data Storage
 
-ContinuAuth supports a dual-storage approach to improve reliability.
+ContinuAuth supports a cloud-storage approach to improve reliability.
 
 ### MongoDB Storage
 
 Face embeddings are encrypted and stored in MongoDB when a database connection is available.
-
-### Local Storage Fallback
-
-If MongoDB becomes unavailable due to network issues or configuration problems, the application automatically stores data locally in the `local_storage/` directory. This allows authentication services to continue operating without interruption.
 
 ## Security
 
