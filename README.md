@@ -154,27 +154,7 @@ If face detection fails:
 2. Position your face directly in front of the camera.
 3. Maintain sufficient image quality and distance from the camera.
 
-## Adding Screenshots & Evaluation Results
 
-To add your own images showcasing the system:
-
-1. **Place images in `assets/images/` folder:**
-   - `authentication_interface.png` - Main UI screenshot
-   - `evaluation_results.png` - Model accuracy, precision, recall charts
-   - `face_detection_demo.png` - Sample face detection output
-   - `performance_metrics.png` - System performance graphs
-
-2. **Image Specifications:**
-   - **Size**: 1280x720 or 1920x1080 for UI screenshots, 800x600 or higher for charts
-   - **Format**: PNG or JPG recommended
-   - **Quality**: High resolution for clarity
-
-3. **After adding images, commit and push:**
-   ```bash
-   git add assets/images/
-   git commit -m "Add screenshots and evaluation results"
-   git push origin main
-   ```
 
 ## License
 
